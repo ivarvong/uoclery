@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    Ascii85 (1.0.2)
+    html_writer (0.2.0)
+    pdf-reader (1.1.1)
+      Ascii85 (~> 1.0.0)
+      ruby-rc4
+    pdf-reader-html (0.1.0)
+      html_writer (~> 0.2.0)
+      pdf-reader (~> 1.1.0)
+    ruby-rc4 (0.1.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pdf-reader-html
